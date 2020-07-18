@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AEFFEB3B"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/txtR"
+            android:layout_width="332dp"
+            android:layout_height="46dp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txtR" />
+
+        <Switch
+            android:id="@+id/sw1"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sw1" />
+
+        <Switch
+            android:id="@+id/sw2"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sw2" />
+
+        <Switch
+            android:id="@+id/sw3"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sw3" />
+
+        <TextView
+            android:id="@+id/txtV"
+            android:layout_width="318dp"
+            android:layout_height="45dp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txtV" />
+
+        <EditText
+            android:id="@+id/etxtDIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint2"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/txtA"
+            android:layout_width="361dp"
+            android:layout_height="65dp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txtA" />
+
+        <RadioGroup
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal">
+
+            <RadioButton
+                android:id="@+id/rd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rd1" />
+
+            <RadioButton
+                android:id="@+id/rd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rd2" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnE"
+            android:text="@string/btnE" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

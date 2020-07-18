@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ImobiliariaApp</string>
+    <string name="txtR">Insira a região de seu interesse:</string>
+    <string name="hint1">Região</string>
+    <string name="txtV">Insira o valor máximo desejado:</string>
+    <string name="hint2">Valor</string>
+    <string name="txtA">Existe necessidade de acessibilidade (sem escadas)?</string>
+    <string name="rd1">SIM</string>
+    <string name="rd2">NÃO</string>
+    <string name="btnE">EXIBIR</string>
+    <string name="hint3">Região Selecionada</string>
+    <string name="hint4">Valor máximo</string>
+    <string name="sw1">Osasco</string>
+    <string name="sw2">São Paulo</string>
+    <string name="sw3">Guarulhos</string>
+    <string name="txtINFO">Informações Recebidas</string>
+
+</resources>
